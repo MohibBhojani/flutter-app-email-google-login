@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "781947310010",
+    "project_id": "dukantek-app",
+    "storage_bucket": "dukantek-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781947310010:android:eadb71a0a8c996a2ea5783",
+        "android_client_info": {
+          "package_name": "com.dukantek.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781947310010-a60v8c6cd96654qio2115vguqe7mamci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dukantek.testapp",
+            "certificate_hash": "4acafaddc4ccc94415bb9bf63614c8a29d5a07df"
+          }
+        },
+        {
+          "client_id": "781947310010-6cktua3g16j925bc4i9ak1mirt77ev63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_U1rfJ61gpt6ZCjvyCSNwisH5_GEUAkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781947310010-6cktua3g16j925bc4i9ak1mirt77ev63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
