@@ -61,7 +61,7 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
                 Container(
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('assets/images/blue-bacakground.png'),
+                        image: AssetImage('assets/images/Splash-BG.jpg'),
                         fit: BoxFit.cover),
                   ),
                 ),
@@ -136,7 +136,7 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
                       ]),
                 ),
 
-                Positioned(
+              Positioned(
                   child: Padding(
                     padding: const EdgeInsets.only(bottom: 40),
                     child: Align(
@@ -155,7 +155,7 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
                               "LOGIN NOW",
                               style: TextStyle(
                                 fontSize: 13,
-                            
+                                fontFamily: "Greyfel",
                                 fontWeight: FontWeight.bold,
                                 color: Colors.blue,
                               ),

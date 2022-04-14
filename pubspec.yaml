@@ -65,6 +65,12 @@ dependencies:
   firebase_auth: ^3.3.13
   firebase_core: ^1.14.0
   google_sign_in: ^5.2.4
+  email_validator: ^2.0.1
+  relative_scale: ^2.0.0
+  font_awesome: ^5.10.1
+  font_awesome_flutter: ^10.1.0
+  # column_scroll_view: ^1.0.3
+  # show_up_animation: ^2.0.0
 
 
 dev_dependencies:
@@ -74,6 +80,7 @@ dev_dependencies:
   # json formatter
   build_runner: ^2.1.8
   json_serializable: ^6.1.5
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -94,16 +101,11 @@ flutter_icons:
 # following page: https://dart.dev/tools/pub/pubspec
 
 flutter_native_splash:
-  color: "#FFFFFF"
-  image: "assets/images/logo.png"
-  android_12:
-    color: "#FFFFFF"
-    image: "assets/images/logo.png"
-  android: true
-  ios: true
-  web: false
-  android_gravity: center
-  ios_content_mode: center
+    android: true
+    ios: true
+    background_image: assets/images/Splash-BG.png
+    # color: "#000000"
+    
 
 # The following section is specific to Flutter.
 flutter:

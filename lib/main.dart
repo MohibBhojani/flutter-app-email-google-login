@@ -32,7 +32,8 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => AuthProvider()),
       ],
       child: ScreenUtilInit(
-        designSize: const Size(360, 690),
+        // ignore: prefer_const_constructors
+        designSize:  Size(360, 690),
         builder: () => MaterialApp(
           title: 'My Story',
           color: Theme.of(context).backgroundColor,

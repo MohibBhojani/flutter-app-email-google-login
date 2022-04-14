@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:test_app_dukantek/screens/email_verification_screen.dart';
-import 'package:test_app_dukantek/screens/home_screen.dart';
+import 'package:test_app_dukantek/screens/maindeshboard_screen.dart';
 
-import '../screens/forget_password_screen.dart';
+import '../screens/forget_password_new.dart';
 import '../screens/login_screen.dart';
-import '../screens/signup_screen.dart';
+import '../screens/login_screen_new.dart';
+import '../screens/signup_screen_new.dart';
 import '../screens/splash_screen.dart';
 
 const splashScreenRoute = '/splash-screen';
@@ -22,7 +23,7 @@ Route<dynamic> onGenerateRoute(RouteSettings settings) {
 
     case loginScreenRoute:
       return MaterialPageRoute(
-          builder: (BuildContext context) => const LoginScreen());
+          builder: (BuildContext context) =>  LogInScreen());
 
     case forgetPasswordScreenRoute:
       return MaterialPageRoute(
@@ -30,11 +31,11 @@ Route<dynamic> onGenerateRoute(RouteSettings settings) {
 
     case signUpScreenRoute:
       return MaterialPageRoute(
-          builder: (BuildContext context) => const SignUpScreen());
+          builder: (BuildContext context) =>  SignupScreen());
 
     case homeScreenRoute:
       return MaterialPageRoute(
-          builder: (BuildContext context) => const HomeScreen());
+          builder: (BuildContext context) =>  const MainDeshboardScreen());
 
     case emailVerificationScreenRoute:
       return MaterialPageRoute(
